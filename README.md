@@ -1,15 +1,15 @@
 # Pokémon Null Calculator
 
 **Damage calculator · AI move probabilities · Switching · Doubles**  
-**Pokémon Null 1.2.6 · 🇫🇷 / 🇬🇧**
+**Pokémon Null 1.2.6 · Français / English**
 
-[🇫🇷 Français](#francais) · [🇬🇧 English](#english) · [⬇️ Download / Télécharger](../../releases/latest) · [📖 Guides](#guides)
+[<img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR"> Français](#francais) · [<img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB"> English](#english) · [⬇️ Download / Télécharger](../../releases/latest) · [📖 Guides](#guides)
 
 ![Calculator overview — aperçu du calculateur](documentation/screenshots/overview-en.png)
 
 <a id="francais"></a>
 
-## 🇫🇷 Présentation
+## <img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR"> Français — Présentation
 
 Une évolution du calculateur de dégâts de **Pokémon Null**, enrichie pour préparer les combats et mieux comprendre les décisions de l'IA : **attaques, switches pendant le combat et Pokémon envoyé après un KO**.
 
@@ -38,7 +38,7 @@ Le projet part du [calculateur Null de NathanMelons](https://nathanmelons.github
 Vous pouvez aussi utiliser **Code → Download ZIP** sur GitHub : extraire le dépôt et ouvrir le même fichier. Aucune installation, ROM ou émulateur n'est nécessaire pour utiliser le calculateur. Les calculs et les données principales fonctionnent hors ligne ; certaines animations, les cris du Pokédex et les liens externes nécessitent Internet.
 
 <details>
-<summary><strong>🇫🇷 Prise en main : simples, switches et doubles</strong></summary>
+<summary><strong><img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR"> Prise en main : simples, switches et doubles</strong></summary>
 
 **Combat simple.** Choisir votre Pokémon à gauche et le trainer à droite. Renseigner les niveaux, IV/EV, talents, objets, PV, statuts, boosts et terrain. Ouvrir **AI: probabilities, switching and battle state** pour les PP, historiques, hypothèses et règles appliquées. La roue des paramètres permet de passer le panneau IA en français.
 
@@ -70,7 +70,7 @@ Le calculateur **ne lit pas l'émulateur** et ne rejoue pas tous les événement
 
 <a id="english"></a>
 
-## 🇬🇧 Overview
+## <img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB"> English — Overview
 
 An expanded **Pokémon Null damage calculator** for battle preparation and understanding AI decisions: **move choices, switching during battle and replacements after a KO**.
 
@@ -99,7 +99,7 @@ This project builds on [NathanMelons' Null calculator](https://nathanmelons.gith
 Alternatively, use GitHub's **Code → Download ZIP**, extract the repository and open the same file. No installation, ROM or emulator is needed to use the calculator. Calculations and core data work offline; some Pokédex animations, cries and external links require Internet.
 
 <details>
-<summary><strong>🇬🇧 Quick tutorial: singles, switching and doubles</strong></summary>
+<summary><strong><img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB"> Quick tutorial: singles, switching and doubles</strong></summary>
 
 **Singles.** Select your Pokémon on the left and the trainer's set on the right. Match levels, IVs/EVs, abilities, items, HP, status, stat stages and field conditions. Open **AI: probabilities, switching and battle state** for PP, histories, assumptions and applied rules. AI controls default to English; the settings wheel also offers French.
 
@@ -134,8 +134,8 @@ The calculator **does not read emulator memory** or replay every event of a turn
 
 | Audience | Start here / Commencer ici |
 | --- | --- |
-| 🇫🇷 Joueurs | [Guide français](documentation/TUTORIEL_SOURCE.txt) · ouvrir **TUTORIEL.html** après extraction |
-| 🇬🇧 Players | [English user guide](documentation/USER_GUIDE_EN.md) |
+| <img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR"> Joueurs | [Guide français](documentation/TUTORIEL_SOURCE.txt) · ouvrir **TUTORIEL.html** après extraction |
+| <img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB"> Players | [English user guide](documentation/USER_GUIDE_EN.md) |
 | Developers / agents | [Developer entry point](documentation/GUIDE_AGENTS.md) · [Current architecture](documentation/DOCUMENTATION_COMPLETE.md) |
 | ROM audit | [1.2.6 migration and coverage](documentation/MISE_A_JOUR_1.2.6.md) · [Native KO thresholds](documentation/SEUILS_KO_ROM.md) |
 | History / Historique | [Consolidated history](documentation/HISTORIQUE.md) |
@@ -160,8 +160,8 @@ For development, see the developer guide for Node, Python and Playwright prerequ
 
 Modified and documented for this project through **2 November 2026**. The Porydex-derived code and this project's additions are distributed under [AGPL-3.0](LICENSE); the damage engine retains its [MIT notice](licenses/MIT-damage-calc.txt). Existing third-party notices remain in their files. Pokémon artwork and other third-party assets retain their respective ownership.
 
-## 🇫🇷 Mises à jour · 🇬🇧 Updates
+## <img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR"> Mises à jour · <img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB"> Updates
 
-**🇫🇷** Le projet pourra recevoir des mises à jour : nouvelles versions du jeu, corrections de règles, retours de combats et améliorations de l'interface. Pour signaler un écart, indiquer la version de la ROM et du calculateur, le trainer, les quatre Pokémon en doubles, les PV après le coup, les KO précédents et les effets du terrain ; joindre une capture si possible.
+**<img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR">** Le projet pourra recevoir des mises à jour : nouvelles versions du jeu, corrections de règles, retours de combats et améliorations de l'interface. Pour signaler un écart, indiquer la version de la ROM et du calculateur, le trainer, les quatre Pokémon en doubles, les PV après le coup, les KO précédents et les effets du terrain ; joindre une capture si possible.
 
-**🇬🇧** Updates may follow: new game versions, rule corrections, battle reports and interface improvements. When reporting a mismatch, include the ROM/calculator version, trainer, all four battlers in doubles, HP after the move, previous KOs and field effects; attach a screenshot when possible.
+**<img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB">** Updates may follow: new game versions, rule corrections, battle reports and interface improvements. When reporting a mismatch, include the ROM/calculator version, trainer, all four battlers in doubles, HP after the move, previous KOs and field effects; attach a screenshot when possible.
