@@ -1,6 +1,6 @@
 # Commencer ici — calculateur Null 1.2.6
 
-Révision : `null-1.2.6-clean-archive`, 2 novembre 2026.
+Révision : `null-1.2.6-public-release`, 2 novembre 2026.
 
 Le même ZIP sert au joueur et aux futurs agents. Ouvrir `CALCULATEUR.html` après
 extraction complète. Les sources, tests et outils sont inclus ; aucune ROM,
@@ -117,3 +117,13 @@ Les 147 fichiers protégés restent présents, y compris les tables historiques
 nécessaires aux tests de conservation. Ne pas les supprimer comme de simples
 doublons. Les modules séparés restent disponibles à côté des bundles générés
 pour que les prochains agents puissent travailler et reproduire la livraison.
+
+## Présentation publique
+
+README.md contient la présentation français/anglais et les liens de téléchargement.
+USER_GUIDE_EN.md complète le tutoriel français ; documentation/screenshots contient
+les captures pédagogiques courantes. Garder ces liens valides et mettre à jour les
+images si l’interface change. Le builder conserve désormais le README à la racine
+du ZIP, ainsi que LICENSE et les notices sous licenses. Les autres anciens
+Markdown de racine restent exclus. .gitattributes préserve les octets pour que
+les hashes protégés restent vérifiables après un clone ou Download ZIP GitHub.

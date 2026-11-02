@@ -1,5 +1,5 @@
 POKÉMON NULL 1.2.6 — CALCULATEUR LOCAL
-Révision : null-1.2.6-clean-archive, 2 novembre 2026.
+Révision : null-1.2.6-public-release, 2 novembre 2026.
 Un seul dossier pour jouer, conserver les sources et faciliter les prochains agents.
 
 OUVRIR LE CALCULATEUR

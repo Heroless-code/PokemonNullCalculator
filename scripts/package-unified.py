@@ -136,7 +136,7 @@ def build(target):
                 len(rel.parts) != 2 or rel.parts[1] not in VERIFICATION_INPUTS):
             omitted_verification += 1
             continue
-        if len(rel.parts) == 1 and source.suffix.lower() in {'.md', '.txt'}:
+        if len(rel.parts) == 1 and source.suffix.lower() in {'.md', '.txt'} and rel.name != 'README.md':
             continue
         if rel.as_posix() == 'documentation/MANIFESTE.json':
             continue

@@ -1,6 +1,6 @@
 # Référence courante — calculateur Null 1.2.6
 
-Révision null-1.2.6-clean-archive, 2 novembre 2026.
+Révision null-1.2.6-public-release, 2 novembre 2026.
 Lire [GUIDE_AGENTS.md](GUIDE_AGENTS.md) pour les commandes,
 [MISE_A_JOUR_1.2.6.md](MISE_A_JOUR_1.2.6.md) pour l’audit point par point
 et [HISTORIQUE.md](HISTORIQUE.md) pour les rapports précédents.

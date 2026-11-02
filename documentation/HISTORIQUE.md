@@ -2,6 +2,15 @@
 
 Ces documents sont conservés comme preuves et références historiques. Leurs mentions de version courante, comptes de tests et commandes de livraison correspondent à leur date ; commencer par DOCUMENTATION_COMPLETE.md et GUIDE_AGENTS.md pour cette révision.
 
+## 2 novembre 2026 — null-1.2.6-public-release
+
+Présentation publique française et anglaise, six captures de la version courante,
+guide utilisateur anglais, crédits et notices de licence ajoutés. Le README est
+conservé dans l'archive. La politique de nettoyage reste active ; les nouveaux
+visuels sont pédagogiques, les anciennes captures de validation restent exclues.
+Les attributs Git évitent la conversion automatique des fins de ligne des données
+protégées. Aucun calcul, set, trainer ou ressource d'application n'est modifié.
+
 ## 2 novembre 2026 — null-1.2.6-clean-archive
 
 Nettoyage de l'archive unique : exclusion des anciens rapports, captures et

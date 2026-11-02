@@ -54,6 +54,9 @@ def put(name,body):
  path=source/name;path.parent.mkdir(parents=True,exist_ok=True);path.write_text(body,encoding='utf8')
 put('scripts/archive-policy.json',json.dumps(p.POLICY))
 put('docs/calc/original.js','original data retained')
+put('README.md','Public overview: [Guide](documentation/USER_GUIDE_EN.md)')
+put('documentation/USER_GUIDE_EN.md','English guide')
+put('documentation/screenshots/example.png','public screenshot')
 protected={'docs/calc/original.js':hashlib.sha256(b'original data retained').hexdigest()}
 put('tests/fixtures/input-archive.json',json.dumps({'hashes':protected}))
 modules=['verified-data.js','verified-data-adapter.js','core.js','state.js','switch.js','ui.js']
@@ -68,6 +71,9 @@ p.ROOT=source;p.build(target)
 assert p.protected(target)==1
 for name in modules:assert (target/'docs/js/null_ai'/name).read_text()=='var fixture = {};\n'
 assert (target/'documentation/HISTORIQUE.md').is_file()
+assert (target/'README.md').read_text()=='Public overview: [Guide](documentation/USER_GUIDE_EN.md)'
+assert (target/'documentation/USER_GUIDE_EN.md').is_file()
+assert (target/'documentation/screenshots/example.png').is_file()
 assert {f.name for f in (target/'verification').iterdir()}==p.VERIFICATION_INPUTS
 assert not any((target/name).exists() for name in p.EXCLUDED_FILES)
 assert 'rom.bundle.js' in (target/'CALCULATEUR.html').read_text()

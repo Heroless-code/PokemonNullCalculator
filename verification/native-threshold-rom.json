@@ -3,7 +3,7 @@
   "audit": "native-threshold-rom",
   "status": "verified",
   "errors": [],
-  "checkedAtUTC": "2026-11-02T11:48:49.629588+00:00",
+  "checkedAtUTC": "2026-11-02T20:54:28.666792+00:00",
   "romSHA256": "78455d8dabf57ab6b90cf2041bdc173c1b825cc035a9f416c5e96903717e9045",
   "romVersion": "1.2.6",
   "romSizeBytes": 33554432,
