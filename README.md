@@ -3,6 +3,9 @@
 **Damage calculator · AI move probabilities · Switching · Doubles**  
 **Pokémon Null 1.2.6 · Français / English**
 
+> ### 🌐 [Ouvrir le calculateur en ligne / Open the online calculator](https://heroless-code.github.io/PokemonNullCalculator/)
+> Accès direct dans le navigateur, sans installation. / Use it directly in your browser, no installation required.
+
 [<img src="documentation/assets/languages/fr.png" width="24" height="16" alt="FR"> Français](#francais) · [<img src="documentation/assets/languages/gb.png" width="32" height="16" alt="GB"> English](#english) · [⬇️ Download / Télécharger](../../releases/latest) · [📖 Guides](#guides)
 
 ![Calculator overview — aperçu du calculateur](documentation/screenshots/overview-en.png)
